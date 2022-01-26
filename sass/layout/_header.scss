@@ -1,3 +1,8 @@
+.page-header {
+  &__container {
+    display: flex;
+  }
+}
 .site-nav {
   display: flex;
   &__link {
