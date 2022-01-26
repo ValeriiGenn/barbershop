@@ -82,25 +82,6 @@ body {
   padding: 0 15px;
 }
 
-.page-header__container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
-  margin-left: auto;
-}
-
 .logo {
   text-decoration: none;
   margin-right: 93px;
@@ -174,9 +155,22 @@ body {
 }
 
 .page-header__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+  margin-left: auto;
 }
 
 .site-nav {
