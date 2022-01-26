@@ -49,20 +49,19 @@ img {
   list-style: none;
   padding-left: 0;
   color: var(--button-text-color);
-  font-family: Roboto;
+  font-family: Catamaran;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
 
 body {
-  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: Catamaran;
 }
 
 .container {
-  width: 1200px;
+  width: 1520px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -75,6 +74,7 @@ body {
 .navigation {
   margin: 0;
   padding: 0;
+  margin-right: 416px;
 }
 
 .navigation__list {
@@ -123,6 +123,19 @@ body {
   bottom: -32px;
 }
 
+.button {
+  width: 188px;
+  height: 75px;
+  color: var(--white-color);
+  font-size: 20px;
+  line-height: 1.5em;
+  background-color: var(--btnbg-color);
+  border-radius: 20px;
+  -webkit-box-shadow: 15px 15px var(--boxshad-color);
+          box-shadow: 15px 15px var(--boxshad-color);
+  border: none;
+}
+
 .page-header__container {
   width: 1200px;
   height: 163px;
@@ -146,7 +159,7 @@ body {
   position: relative;
   width: 91px;
   height: 53px;
-  margin-right: 90px;
+  margin-right: 108px;
   margin-left: 244px;
 }
 
@@ -225,7 +238,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: auto;
+  margin-right: 213px;
 }
 
 .auth-nav__item {
@@ -238,11 +251,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  left: 30px;
 }
 
 .auth-nav__item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 69px;
 }
 
 .auth-nav__link {
