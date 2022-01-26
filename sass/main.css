@@ -320,7 +320,6 @@ body {
 
 .hero__wrap {
   width: 500px;
-  margin-left: 50px;
 }
 
 .hero__title {
@@ -404,10 +403,11 @@ body {
 
 .about__wrap {
   width: 500px;
+  margin-left: 50px;
 }
 
 .about__title {
-  margin-bottom: 31px;
+  margin-bottom: 60px;
   color: var(--text-color);
   font-weight: bold;
   font-size: 45px;
