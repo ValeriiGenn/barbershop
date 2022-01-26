@@ -1,9 +1,7 @@
 .page-header {
     &__container {
-        width: 1200px;
         height: 163px;
         margin: 0 auto;
-        padding: 0 15px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -14,10 +12,10 @@
     }
     &__logo {
         position: relative;
-        width: 91px;
-        height: 53px;
-        margin-right: 108px;
-        margin-left: 244px;
+        width: 57px;
+        height: 40px;
+        margin-right: 117px;
+        margin-left: 152px;
         &::before {
             position: absolute;
             content: " ";
