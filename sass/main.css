@@ -6,7 +6,7 @@
   --boxshad-color: rgba(153, 186, 237, 0.5);
   --text-color: #163561;
   --btnbg-color: #99baed;
-  --bg-color: #e5e5e5;
+  --bg-color: rgba(229, 229, 229, 0.5);
   --btnho-color: #a3c1ef;
 }
 
@@ -56,6 +56,7 @@ img {
 }
 
 body {
+  background-color: var(--bg-color);
   color: var(--text-color);
   font-family: Catamaran;
 }
@@ -303,53 +304,151 @@ body {
 }
 
 .hero {
-  max-width: 1600px;
   margin: 0 auto;
-  display: block;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 234px;
   background-color: var(--hero-color);
 }
 
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero__wrap {
+  width: 500px;
+  margin-left: 50px;
+}
+
 .hero__title {
-  margin-bottom: 30px;
-  color: var(--white-color);
-  font-weight: 900;
-  font-size: 44px;
+  margin-bottom: 31px;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 45px;
   line-height: 1.4;
-  text-align: center;
-  text-transform: uppercase;
+  text-align: left;
+}
+
+.hero__span--first {
+  color: var(--yellow-color);
+  margin-right: 15px;
+}
+
+.hero__text {
+  width: 300px;
+  font-size: 25px;
+  line-height: 1.51;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  opacity: 0.65;
+  margin-bottom: 95px;
 }
 
 .hero__button {
-  display: inline-block;
-  text-align: center;
-  background-color: var(--accent-color);
-  color: var(--white-color);
-  font-family: inherit;
-  font-family: Roboto;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  cursor: pointer;
-  border-radius: 4px;
-  padding: 10px 32px;
+  margin-left: 117px;
 }
 
-.hero__container {
-  text-align: center;
+.hero__picture {
+  width: 800px;
 }
 
-.hero--overlay {
-  max-width: 1600px;
-  height: 600px;
+.hero__image {
+  width: 800px;
+}
+
+/*
+        display: inline-block;
+        text-align: center;
+        background-color: var(--accent-color);
+        color: var(--white-color);
+        font-family: inherit;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.87;
+        cursor: pointer;
+        border-radius: 4px;
+        padding: 10px 32px;
+    }
+    &__container {
+        text-align: center;
+    }
+    &--overlay {
+        max-width: 1600px;
+        height: 600px;
+        margin: 0 auto;
+        background: var(--hero-color);
+        background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img.bgoptm.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background: cover;
+    }
+}*/
+.about {
   margin: 0 auto;
-  background: var(--hero-color);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/Img.bgoptm.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img.bgoptm.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background: cover;
+  padding-bottom: 234px;
+  background-color: var(--hero-color);
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about__wrap {
+  width: 500px;
+}
+
+.about__title {
+  margin-bottom: 31px;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.about__span--first {
+  color: var(--yellow-color);
+  margin-right: 15px;
+}
+
+.about__text {
+  width: 300px;
+  font-size: 25px;
+  line-height: 1.51;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  opacity: 0.65;
+  margin-bottom: 95px;
+}
+
+.about__txt {
+  font-size: 25px;
+  line-height: 1.51;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  opacity: 0.65;
+  margin-bottom: 95px;
+}
+
+.about__button {
+  margin-left: 117px;
+}
+
+.about__picture {
+  width: 800px;
+}
+
+.about__image {
+  width: 800px;
 }
 
 .benefits {
