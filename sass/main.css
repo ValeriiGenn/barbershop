@@ -142,11 +142,19 @@ body {
   margin-left: auto;
 }
 
-.page-header__contlogo::before {
+.page-header__logo {
+  position: relative;
+  width: 91px;
+  height: 53px;
+  margin-right: 90px;
+  margin-left: 244px;
+}
+
+.page-header__logo::before {
   position: absolute;
   content: " ";
-  top: 10px;
-  left: 150px;
+  top: -55px;
+  left: -70px;
   width: 102px;
   height: 102px;
   background-image: url(/images/scissors1m.svg);
@@ -154,13 +162,6 @@ body {
   background-size: 102px;
   -webkit-animation: animate1 3000ms infinite 1000ms;
           animation: animate1 3000ms infinite 1000ms;
-}
-
-.page-header__logo {
-  width: 91px;
-  height: 53px;
-  margin-right: 90px;
-  margin-left: 244px;
 }
 
 .site-nav__link {
