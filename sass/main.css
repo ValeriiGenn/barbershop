@@ -173,7 +173,6 @@ body {
           justify-content: center;
   padding-top: 60px;
   padding-bottom: 50px;
-  margin-left: auto;
 }
 
 .page-header__logo {
@@ -461,7 +460,7 @@ body {
 
 .services {
   margin: 0 auto;
-  padding-bottom: 272px;
+  padding-bottom: 234px;
 }
 
 .services__container {
@@ -565,53 +564,43 @@ body {
   padding: 35px 34px 43px;
 }
 
-.directions {
-  padding-top: 47px;
-  padding-bottom: 94px;
+.gallary {
+  margin: 0 auto;
+  padding-bottom: 234px;
+  /*&__container {
+        
+    }
+    &__wrap {
+        width: 500px;
+        margin-left: 50px;
+    }*/
 }
 
-.directions__title {
-  color: var(--black-color);
+.gallary__title {
+  margin: 0 auto 60px;
+  color: var(--text-color);
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 45px;
+  line-height: 1.4;
   text-align: center;
-  margin-bottom: 50px;
 }
 
-.directions__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.gallary__title-span {
+  color: var(--yellow-color);
+  margin-left: 15px;
 }
 
-.directions__item {
-  -ms-flex-preferred-size: calc((100% - 60px) / 3);
-      flex-basis: calc((100% - 60px) / 3);
-  position: relative;
+.gallary__picture {
+  width: 1200px;
 }
 
-.directions__item:not(:last-child) {
-  margin-right: 30px;
+.gallary__image {
+  width: 1200px;
 }
 
-.directions__name {
-  padding-top: 27px;
-  padding-bottom: 27px;
-  font-style: normal;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--bgmodal-color);
-  background-color: var(--bgthumb-color);
-}
-
-.directions__content {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+.gallary__button {
+  margin-top: 70px;
+  margin-left: 550px;
 }
 
 .team {

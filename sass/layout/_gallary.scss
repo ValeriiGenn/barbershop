@@ -1,0 +1,37 @@
+.gallary {
+    margin: 0 auto;
+    //padding-top: 200px;
+    padding-bottom: 234px;
+    //background-color: var(--hero-color);
+    /*&__container {
+        
+    }
+    &__wrap {
+        width: 500px;
+        margin-left: 50px;
+    }*/
+    &__title {
+        //display: flex;
+        margin: 0 auto 60px;
+        color: var(--text-color);
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 1.4;
+        text-align: center;
+        //text-transform: uppercase;
+    }
+    &__title-span {
+        color: var(--yellow-color);
+        margin-left: 15px;
+    }
+    &__picture {
+        width: 1200px;
+    }
+    &__image {
+        width: 1200px;
+    }
+    &__button {
+        margin-top: 70px;
+        margin-left: 550px;
+    }
+}
