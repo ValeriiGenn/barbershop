@@ -191,7 +191,7 @@ body {
   left: -70px;
   width: 102px;
   height: 102px;
-  background-image: url(/images/scissors1m.svg);
+  background-image: url(../images/scissors1m.svg);
   background-repeat: no-repeat;
   background-size: 102px;
   -webkit-animation: animate1 3000ms infinite 1000ms;
@@ -961,21 +961,29 @@ body {
           transform: translateY(0);
 }
 
-.footer__logo__logo {
+.footer {
+  padding-bottom: 145px;
+}
+
+.footer__image {
+  width: 136px;
+  height: 79px;
+}
+
+.footer__logo {
   position: relative;
-  width: 57px;
-  height: 40px;
+  margin-left: 550px;
   margin-bottom: 36px;
 }
 
-.footer__logo__logo::before {
+.footer__logo::before {
   position: absolute;
   content: " ";
-  top: -55px;
-  left: -70px;
-  width: 102px;
-  height: 102px;
-  background-image: url(/images/scissors1m.svg);
+  top: -45px;
+  left: -80px;
+  width: 120px;
+  height: 120px;
+  background-image: url(../images/scissors1-min.png);
   background-repeat: no-repeat;
   background-size: 102px;
   -webkit-animation: animate1 3000ms infinite 1000ms;

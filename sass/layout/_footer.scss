@@ -1,22 +1,24 @@
 .footer {
+    padding-bottom: 145px;
+    &__image {
+        width: 136px;
+        height: 79px;
+    }
     &__logo {
-        &__logo {
-            position: relative;
-            width: 57px;
-            height: 40px;
-            margin-bottom: 36px;
-            &::before {
-                position: absolute;
-                content: " ";
-                top: -55px;
-                left: -70px;
-                width: 102px;
-                height: 102px;
-                background-image: url(/images/scissors1m.svg);
-                background-repeat: no-repeat;
-                background-size: 102px;
-                animation: animate1 3000ms infinite 1000ms;
-            }
+        position: relative;
+        margin-left: 550px;
+        margin-bottom: 36px;
+        &::before {
+            position: absolute;
+            content: " ";
+            top: -45px;
+            left: -80px;
+            width: 120px;
+            height: 120px;
+            background-image: url(../images/scissors1-min.png);
+            background-repeat: no-repeat;
+            background-size: 102px;
+            animation: animate1 3000ms infinite 1000ms;
         }
     }
     &__text {
