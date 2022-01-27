@@ -10,8 +10,8 @@
     }
     &__logo {
         position: relative;
-        min-width: 57px;
-        min-height: 40px;
+        width: 57px;
+        height: 40px;
         margin-right: 117px;
         margin-left: 152px;
         &::before {
@@ -19,8 +19,8 @@
             content: " ";
             top: -55px;
             left: -70px;
-            min-width: 102px;
-            min-height: 102px;
+            width: 102px;
+            height: 102px;
             background-image: url(../images/scissors1m.svg);
             background-repeat: no-repeat;
             background-size: 102px;
