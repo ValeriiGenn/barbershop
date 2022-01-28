@@ -676,8 +676,6 @@ body {
   background-image: url(../images/scissors1-min.png);
   background-repeat: no-repeat;
   background-size: 102px;
-  -webkit-transform: matrix(0.5, -0.87, 0.87, 0.5, 0, 0);
-          transform: matrix(0.5, -0.87, 0.87, 0.5, 0, 0);
   -webkit-animation: animate1 3000ms infinite 1000ms;
           animation: animate1 3000ms infinite 1000ms;
 }
