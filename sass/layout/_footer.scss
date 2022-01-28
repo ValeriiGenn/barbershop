@@ -18,6 +18,7 @@
             background-image: url(../images/scissors1-min.png);
             background-repeat: no-repeat;
             background-size: 102px;
+            transform: matrix(0.5, -0.87, 0.87, 0.5, 0, 0);
             animation: animate1 3000ms infinite 1000ms;
         }
     }
@@ -32,8 +33,19 @@
         margin-bottom: 47px;
     }
     &__list {
+        position: relative;
         margin-left: 480px;
         display: flex;
+        &::after {
+            position: absolute;
+            bottom: -55px;
+            right: -60px;
+            display: inline-block;
+            content: "";
+            width: 180%;
+            height: 1px;
+            background-color: var(--btnbg-color);
+        }
     }
     &__item {
         &:not(:last-child) {
