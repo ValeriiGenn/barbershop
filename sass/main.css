@@ -60,7 +60,7 @@ img {
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--white-color);
   color: var(--text-color);
   font-family: Catamaran;
 }
@@ -394,6 +394,7 @@ body {
     }
 }*/
 .about {
+  position: relative;
   margin: 0 auto;
   display: block;
   padding-bottom: 234px;
@@ -411,6 +412,28 @@ body {
 .about__wrap {
   width: 500px;
   margin-left: 50px;
+}
+
+.about__wrap::before {
+  position: absolute;
+  content: "";
+  width: 300px;
+  height: 460px;
+  top: -160px;
+  left: 310px;
+  background-image: url(../images/beflt-min.png);
+  background-repeat: no-repeat;
+}
+
+.about__wrap::after {
+  position: absolute;
+  content: "";
+  width: 500px;
+  height: 1200px;
+  top: -160px;
+  right: 50px;
+  background-image: url(../images/bgtr-min.png);
+  background-repeat: no-repeat;
 }
 
 .about__title {
