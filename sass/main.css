@@ -1100,4 +1100,64 @@ textarea {
   width: 20px;
   height: 20px;
 }
+
+.btntel {
+  position: fixed;
+  z-index: 5;
+  bottom: 100px;
+  left: 250px;
+}
+
+.btntel__phone {
+  -webkit-animation-name: animate1;
+          animation-name: animate1;
+  -webkit-animation-duration: 190ms;
+          animation-duration: 190ms;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 5px solid var(--bxshdwrap-color);
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+
+@keyframes animate1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
 /*# sourceMappingURL=main.css.map */
