@@ -175,9 +175,9 @@
                 <button class="button gallery__button">View All</button>
             </div>
         </section>
-        <!--кнопка модалки-->
+        <!--кнопка kодалки-->
         <div class="btntel">
-            <button class="btntel__phone" data-modal-open>
+            <button class="btntel__phone" data-kodal-open>
           <img class="btntel__icon" src="./images/phone.png" />
         </button>
         </div>
@@ -223,19 +223,19 @@
         </div>
     </footer>
     <!--модальне вікно-->
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="modal__button" data-modal-close>
-          <svg class="modal-close" width="20 " height="20 ">
+    <div class="backdrop is-hidden" data-kodal>
+        <div class="kodal">
+            <button class="kodal__button" data-kodal-close>
+          <svg class="kodal-close" width="20 " height="20 ">
             <use href="./images/symbol-defs.svg#icon-closem"></use>
           </svg>
         </button>
 
             <form class=" " autocomplete="off">
-                <p class="form__leave">Оставьте свои данные, мы вам перезвоним</p>
+                <p class="form__leave">Залиште свої дані,ми Вам зателефонуємо</p>
 
                 <label for="name " class="form__field">
-            <span class="form__label">Имя</span>
+            <span class="form__label">Ім'я</span>
             <input
               type="text"
               name="user-name"
@@ -264,7 +264,7 @@
             </svg>
           </label>
                 <label class="form__field">
-            <span class="form__label">Почта</span>
+            <span class="form__label">Пошта</span>
             <input
               class="form__input"
               type="email "
@@ -276,9 +276,9 @@
             </svg>
           </label>
                 <label for="comment " class="form__field">
-            <span class="form__label">Комментарий</span>
+            <span class="form__label">Коментар</span>
             <textarea
-              placeholder="Введите текст "
+              placeholder="Введіть текст "
               class="form__comment"
               name="comment "
               id="comment "
@@ -293,16 +293,16 @@
             />
 
             <span class="form__icon-check"></span>
-            Соглашаюсь с рассылкой и принимаю<a class="form__condition" href=" "
-              >Условия договора</a
+            Погоджуюся з розсилкою та приймаю<a class="form__condition" href=" "
+              >Умови договору</a
             >
           </label>
-                <button class="form__button-send" type="submit ">Oтправить</button>
+                <button class="form__button-send" type="submit ">Відправити</button>
             </form>
         </div>
     </div>
 
-    <script src="js/modal.js"></script>
+    <script src="js/kodal.js"></script>
     <script src="js/scrollup.js "></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
 </body>
